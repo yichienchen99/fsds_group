@@ -57,7 +57,11 @@ format:
 
 London's housing market has long faced a huge crisis of undersupply. According to SpareRoom, in August 2022, over 100,000 people needed housing, with the supply advertised housing at just under 20,000 [@bindman]. In July 2022, over 25% of private renters and social tenants felt they were struggling to make ends meet (London Datastore, 2022), causing social events such as the gathering of a record number of people who were evicted because they could not afford to pay their rent. The question is highly related to the risky market of foreign investments, as well as the floating tourism market. London's tourism industry is vital to UK, with more than half of all overnight international visitors to the UK in 2019 destined for Greater London, and tourism generated a total of Â£1.57 billion spending in London, representing approximately 3% of its GDP (Campbell, 2022). According to GLA forecasts, London will see 137,601,000 visitor nights in 2023 (GLA Economics, 2022).  
  
-Thereafter, concerns are raised by the public about the current unregulated situation of Londonâ€™s tourism and the challenges the local community faces. Other cities have shown stricter regulations. For example, the Scottish government laid a Licensing Order which required all hosts to apply for a license and introduced Short-term Let Control Areas. And in San Francisco, only permanent residents are allowed to offer short-term rentals. The short-term and holiday rental market in England, however, is currently unregulated, except for the Greater London Area. As an amendment to the Greater London Council (General Powers) Act 1973, section 44 of the Deregulation Act 2015 stipulates that the use of residential premises will not be considered a material change if the number of nights used in the way as a temporary sleeping accommodation does not exceed 90 [@deregulation]. The governmentâ€™s recent consultation on the opinions of listing hosts and short-term letting companies about the Tourist Accommodation Registration Scheme is also a step forward [@consultation]. Even so, more regulations are needed to ensure the effects of short-term letting would unsettle the housing supply and residentsâ€™ well-being in London. 
+Thereafter, concerns are raised by the public about the current unregulated situation of Londons tourism and the challenges the local community faces. Other cities have shown stricter regulations. For example, the Scottish government laid a Licensing Order which required all hosts to apply for a license and introduced Short-term Let Control Areas. And in San Francisco, only permanent residents are allowed to offer short-term rentals. The short-term and holiday rental market in England, however, is currently unregulated, except for the Greater London Area. As an amendment to the Greater London Council (General Powers) Act 1973, section 44 of the Deregulation Act 2015 stipulates that the use of residential premises will not be considered a material change if the number of nights used in the way as a temporary sleeping accommodation does not exceed 90 [@deregulation]. The governments recent consultation on the opinions of listing hosts and short-term letting companies about the Tourist Accommodation Registration Scheme is also a step forward [@consultation]. Even so, more regulations are needed to ensure the effects of short-term letting would unsettle the housing supply and residentsâ€™ well-being in London. 
+
+London's housing market has long faced a huge crisis of undersupply. According to SpareRoom, in August 2022, over 100,000 people needed housing, with the supply advertised housing at just under 20,000 (Bindman, 2022). In July 2022, over 25% of private renters and social tenants felt they were struggling to make ends meet (London Datastore, 2022), causing social events such as the gathering of a record number of people who were evicted because they could not afford to pay their rent. The question is highly related to the risky market of foreign investments, as well as the floating tourism market. London's tourism industry is vital to UK, with more than half of all overnight international visitors to the UK in 2019 destined for Greater London, and tourism generated a total of ?1.57 billion spending in London, representing approximately 3% of its GDP (Campbell, 2022). According to GLA.
+ 
+Thereafter, concerns are raised by the public about the current unregulated situation of London¡¯s tourism and the challenges the local community faces. Other cities have shown stricter regulations. For example, the Scottish government laid a Licensing Order which required all hosts to apply for a license and introduced Short-term Let Control Areas. And in San Francisco, only permanent residents are allowed to offer short-term rentals. The short-term and holiday rental market in England, however, is currently unregulated, except for the Greater London Area. As an amendment to the Greater London Council (General Powers) Act 1973, section 44 of the Deregulation Act 2015 stipulates that the use of residential premises will not be considered a material change if the number of nights used in the way as a temporary sleeping accommodation does not exceed 90. The government¡¯s recent consultation on the opinions of listing hosts and short-term letting companies about the Tourist Accommodation Registration Scheme is also a step forward. Even so, more regulations are needed to ensure the effects of short-term letting would unsettle the housing supply and residents well-being in London. 
 
 Given these problems, this report aims to examine changes in the housing market in London from 2016 to recent years, investigate the effects of gentrification due to Airbnb, one of the leading short-term renters, and limit its ripple effect and strengthen regulations to revive the community. 
 
@@ -71,7 +75,7 @@ The main datasets used in this analysis are as follows: London LSOA boundaries d
  
  * **The change of entire home/apt room type prices in 2016, 2019 and 2022** 
  
-     The price changed over the three years based on the Entire home/apt type, which accounted for the largest proportion of rooms in Airbnb. The outlier whose room price is extremely high was removed before analysis, and the result shows that the room price gradually increases over time. Comparing 2016 and 2022, the median price of the room increased 1.3 times between 2016 (ï¿¡120 per night) and 2022 (ï¿¡160). 
+     The price changed over the three years based on the Entire home/apt type, which accounted for the largest proportion of rooms in Airbnb. The outlier whose room price is extremely high was removed before analysis, and the result shows that the room price gradually increases over time. Comparing 2016 and 2022, the median price of the room increased 1.3 times between 2016 (¡ê120 per night) and 2022 (¡ê160). 
  
  * **The Occupancy model**
  
@@ -84,7 +88,7 @@ The main datasets used in this analysis are as follows: London LSOA boundaries d
 
 * **Housing price**
 
-    Areas with higher housing price would have significantly higher number of Airbnb listings. The median housing prices remained in the range of ï¿¡400,000 to ï¿¡500,000 without significant change as of the end of March every year in 2016, 2019, and 2022. However, the minimum house price started from ï¿¡200,000 in 2022. House prices in Kensington, Chelsea, and City of Westminster have always remained high regardless of the year. 
+    Areas with higher housing price would have significantly higher number of Airbnb listings. The median housing prices remained in the range of ¡ê400,000 to ¡ê500,000 without significant change as of the end of March every year in 2016, 2019, and 2022. However, the minimum house price started from ¡ê200,000 in 2022. House prices in Kensington, Chelsea, and City of Westminster have always remained high regardless of the year.  
 
 
 * **Tourist attractions and Hotels**
@@ -99,17 +103,18 @@ The main datasets used in this analysis are as follows: London LSOA boundaries d
     
     In summary, about 48.6% of LSOAs are considered part of a spatial cluster, and half of the LSOAs are actually not showing clustering, forming a very thick middle transition ring. 
 
-![Local Moranâ€™s I between the number of hotels and Airbnb listings](Local_Morans_I.png)
+![Local Moran's I between the number of hotels and Airbnb listings](Local_Morans_I.png)
 
 
 ## Policy Recommendations
 
-1. a.
+1. **Use the non-clustering transition ring currently in mid-outer London to hold the Airbnb growth within Inner-London, beware of spillover of Airbnb-related gentrification into outer-London affordable areas.** The affordability of the London housing market is currently at risk and with the current stagnation of Airbnb in the central city and significant growth in the peripheral city that has already occurred, London should introduce stricter vacancy and whole house rental restrictions for these middle-ring areas, given the significant link between Airbnb and foreign investment and house price growth. 
 
-2. b.
+2. **Monitor and restrict short term rentals of homes owned by foreign investment.** The proportion of non-UK born residents significantly increases the price of homes and the number of Airbnb listings, i.e. foreign related owners are one of the main drivers of Airbnb rentals. Before the government completes its debate on whether to take more radical measures such as restricting foreign investment in home ownership, the vacancy and short-term rental rates of such homes should be investigated and limited, thus easing the pressure on the London long term rental and sale market. This could be done by drawing on taxation or licensing tools, among others. 
 
-3. c.
+3. **Detect Airbnb hotspots along the Underground line in zone 1 and revive local communities to become more efficient in both tourist needs and residential demands.** Based on the reality that the distribution of Airbnb, transport facilities and hotels are all strongly positively correlated, a metro network along Zone 1 combined with tourist attractions should be monitored to protect community creation in LSOAs where short-term rentals are concentrated and hard to control. In these concentrated areas, in addition to debatable market control, efforts should be made first to encourage tourist-friendly, well-secured and integrated neighbourhoods, with additional social spaces such as police stations and cafes to facilitate community monitoring and mutual support such as Eye-on-the-Street, creating higher resident satisfaction, while also boosting the occupancy rate of existing inner London listings (So as to reduce Airbnb sprawl). 
 
+{{< pagebreak >}}
 
 ## Reference
 
