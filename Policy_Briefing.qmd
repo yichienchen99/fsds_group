@@ -1,7 +1,7 @@
 ---
 bibliography: bio.bib
-csl: harvard-cite-them-right.csl
-title: Airbnb is Altering London's Tourism Sector and Local Rental Market
+csl: harvard-cite-them-right-no-et-al.csl
+title: "Limiting Spillover & Reviving Communities: Tighten the Rein of Airbnb-induced Gentrification in London"
 format: 
   pdf:
     include-in-header:
@@ -16,44 +16,106 @@ format:
     papersize: a4
     geometry:
       - top=25mm
-      - left=40mm
-      - right=30mm
-      - bottom=25mm
+      - left=20mm
+      - right=20mm
+      - bottom=15mm
       - heightrounded
     toc: false
     number-sections: true
+    number-depth: 3
     colorlinks: true
     highlight-style: github
-    nocite: |
-  @*
-  crossref:
-  chapters: true
-  fig-title: Fig     # (default is "Figure")
-  tbl-title: Tbl     # (default is "Table")
-  title-delim: —     # (default is ":")
-
 ---
 
 ## Executive Summary
-### Background
+1. Context
 
-### Key Findings
+ London's housing market has been undersupplied for long and disproportionately soaring prices have led to a decline in the well-being of Londoners and several rounds of social movements over unaffordability. Meanwhile, London's tourism industry is an important economic enabler and job creator for the city and the UK. As a result, London has a large and controversial market for short-term rentals, represented by Airbnb, while government action to control it has been ambiguous. 
 
-## A brief review of the evidence
-### Data
-***London LSOA boundaries data (2011)***
-This project was carried out based on the Lower-layer Super Output Areas (LSOAs) among London's districts to determine the impact of Airbnb on London's rental market/tourism economy. LSOAs are one of the statistical hierarchies in the UK, comprised of approximately 2,000 residents or 800 households (ONS, 2021). This data was published in 2011 and contains basic information about households. To use only the necessary data, data cleaning has been done including the transformation of the data types. 
+2. Key Findings
 
-***English LSOA boundaries data (2011)***
+* Airbnb listings have an extremely high concentration in central London and a somewhat high concentration in the Heathrow airport surrounding area. 
 
-***Airbnb data (2016, 2019, 2022)***
-***Housing price (2016, 2019, 2022)***
-***OpenStreetMap data***
+* Airbnb listings clustering form a clear three-ring structure in London.
 
-###Analysis methods 
+* Over the period of 2016-2022, the number of low-occupancy and high-availability entire properties listings has increased and then decreased in central London (showing an overall decline), while there has been a significant increase in many outer London LSOAs, implying a spillover effect of tourism-related gentrification into outer London where locals may struggle to find affordable housing. 
 
-## 
+* The higher the number of non-UK-born residents, the higher the number of Airbnb listings within the LSOA and the significantly higher the housing prices. Combining with the risk that foreign investment poses to the London housing market, homes under foreign investment are more likely to be left vacant for long periods of time and rented out as whole house listings in the context of Airbnb. 
 
-## Conclusion
+* Tourism factors (namely transportation, Airbnb listing and hotel number) have strong relationships with the housing price, showing strong touristification happening in London and little chance to reverse. 
 
-## References
+3. Policy Recommendations
+
+* Restrict the spillover of Airbnb into outer-London with differentiated regulations for the three rings of Airbnb clustering layout. 
+
+* Focus on the use of foreign investment housing and introduce requirement for license or time-limit to discourage short-term rent. 
+
+* Detect concentration areas of Airbnb along tourism-rich Underground Stations and revive local community networks to increase tourist and residential use efficiency, thus suppressing Airbnb sprawl. 
+
+
+## Background
+
+London's housing market has long faced a huge crisis of undersupply. According to SpareRoom, in August 2022, over 100,000 people needed housing, with the supply advertised housing at just under 20,000 (Bindman, 2022). In July 2022, over 25% of private renters and social tenants felt they were struggling to make ends meet (London Datastore, 2022), causing social events such as the gathering of a record number of people who were evicted because they could not afford to pay their rent. The question is highly related to the risky market of foreign investments, as well as the floating tourism market. London's tourism industry is vital to UK, with more than half of all overnight international visitors to the UK in 2019 destined for Greater London, and tourism generated a total of £1.57 billion spending in London, representing approximately 3% of its GDP (Campbell, 2022). According to GLA forecasts, London will see 137,601,000 visitor nights in 2023 (GLA Economics, 2022).  
+ 
+Thereafter, concerns are raised by the public about the current unregulated situation of London’s tourism and the challenges the local community faces. Other cities have shown stricter regulations. For example, the Scottish government laid a Licensing Order which required all hosts to apply for a license and introduced Short-term Let Control Areas. And in San Francisco, only permanent residents are allowed to offer short-term rentals. The short-term and holiday rental market in England, however, is currently unregulated, except for the Greater London Area. As an amendment to the Greater London Council (General Powers) Act 1973, section 44 of the Deregulation Act 2015 stipulates that the use of residential premises will not be considered a material change if the number of nights used in the way as a temporary sleeping accommodation does not exceed 90. The government’s recent consultation on the opinions of listing hosts and short-term letting companies about the Tourist Accommodation Registration Scheme is also a step forward. Even so, more regulations are needed to ensure the effects of short-term letting would unsettle the housing supply and residents’ well-being in London. 
+
+Given these problems, this report aims to examine changes in the housing market in London from 2016 to recent years, investigate the effects of gentrification due to Airbnb, one of the leading short-term renters, and limit its ripple effect and strengthen regulations to revive the community. 
+
+## Analysis of research project
+
+The main datasets used in this analysis are as follows: London LSOA boundaries data (2011), Airbnb data (2016, 2019, 2022) and OpenStreetMap data. The whole dataset and analysis results can be shown in our group GitHub repository (<https://github.com/yichienchen99/fsds_group>). 
+ 
+ * **The number of rooms by room type in 2016, 2019 and 2022** 
+ 
+     Airbnb has four main types of rooms: Hotel room, Shared room, Private room and Entire home/apartment (apt). Entire home/apt accounted for about 59.5% of all rooms on the Airbnb list in 2022. It was also always the largest number of room types regardless of year, followed by private rooms. The number of entire home/apt tended to increase over time, but on the contrary, private rooms tended to increase from 2016 to 2019 and decrease in 2022. 
+ 
+ * **The change of entire home/apt room type prices in 2016, 2019 and 2022** 
+ 
+     The price changed over the three years based on the Entire home/apt type, which accounted for the largest proportion of rooms in Airbnb. The outlier whose room price is extremely high was removed before analysis, and the result shows that the room price gradually increases over time. Comparing 2016 and 2022, the median price of the room increased 1.3 times between 2016 (￡120 per night) and 2022 (￡160). 
+ 
+ * **The Occupancy model**
+ 
+     Since the operation of Airbnb began, contrary to the initial intention of the business, there has been a problem in that the rooms of many hosts function as a substantial hotel (Inside Airbnb, 2023). Therefore, we would like to estimate the frequency of rentals and the revenue through the occupancy model. This model was used by referring to the "San Francisco Model" guided by the Inside Airbnb website. 
+
+     As a result of analysing the change of highly available and frequently rented out rooms in Airbnb listings from 2016 to 2022, the overall proportion of highly available rooms has remained the same for six years. However, there was a noticeable change between inner and outer London regarding the number of Airbnb listings in Figure 1. It decreased in inner London shown on the left map, but on the contrary, it increased over time in outer London on the right map. Especially there was a remarkable increase around Heathrow airport. 
+
+![The change of occupancy in Airbnb listings in London from 2016 to 2022 
+](Change_count_and_HHper_Airbnb_per_LSOA_2016_2022.png)
+
+* **Housing price**
+
+    Areas with higher housing price would have significantly higher number of Airbnb listings. The median housing prices remained in the range of ￡400,000 to ￡500,000 without significant change as of the end of March every year in 2016, 2019, and 2022. However, the minimum house price started from ￡200,000 in 2022. House prices in Kensington, Chelsea, and City of Westminster have always remained high regardless of the year. 
+
+
+* **Tourist attractions and Hotels**
+
+    Many tourist attractions are clustered as the Airbnb listings, proving that, as assumed, tourists tend to stay closer to their destination. Hotels tend to follow the spatial distribution of the number of tourist attractions because the primary users are tourists. Therefore, we will measure the cluster differences and find the relationship between the number of Airbnb lists and hotels at the LSOA level in 2022. And then evaluate some factors related to the median housing price of LSOAs. 
+
+* **Spatial clustering layout of Airbnb listings: The Three Rings**
+
+    As one of the indicators of spatial autocorrelation, the Local Indicator of Special Association (LISA) Moran's I was used to compare the difference in the number of hotels and Airbnb listings in London. It indicates whether a local cluster of given variable is present or absent, we can consider locally significant spatial autocorrelation. 
+    
+    Airbnb layout in London is very concentrated in central London and gradually reducing as the distance to central London increases. Meanwhile, in terms of clustering, Outer London is generally clustered in a ring of areas with relatively few Airbnb homes, accompanied by a growing fragmentation of areas with more Airbnb homes, while Central London is entirely occupied by areas with more Airbnb listings and is very clustered in space. Between these two, there is a thick non-clustered area made up of LSOAs with varying high and low numbers of Airbnbs interspersed with each other. The distribution and clustering of Airbnb in London thus follows the similar 'three-ring' structure as the level of house prices, and the fragmentation of the outer ring further confirms the beginning of the spillover of Airbnb. 
+    
+    In summary, about 48.6% of LSOAs are considered part of a spatial cluster, and half of the LSOAs are actually not showing clustering, forming a very thick middle transition ring. 
+
+![Local Moran’s I between the number of hotels and Airbnb listings](Local_Morans_I.png)
+
+
+
+## Policy Recommendations
+
+1. a.
+
+2. b.
+
+3. c.
+
+
+## Reference
+
+---
+nocite: |
+  @*
+  
+---
