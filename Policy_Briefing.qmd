@@ -1,7 +1,7 @@
 ---
 bibliography: bio.bib
 csl: harvard-cite-them-right.csl
-title: Airbnb is Influencing London's Housing Market
+title: Airbnb is Altering London's Tourism Sector and Local Rental Market
 format: 
   pdf:
     include-in-header:
@@ -24,13 +24,35 @@ format:
     number-sections: true
     colorlinks: true
     highlight-style: github
+    nocite: |
+  @*
+  crossref:
+  chapters: true
+  fig-title: Fig     # (default is "Figure")
+  tbl-title: Tbl     # (default is "Table")
+  title-delim: —     # (default is ":")
+
 ---
 
 ## Executive Summary
+### Background
 
-## Effect1:
+### Key Findings
 
-## Effect2:
+## A brief review of the evidence
+### Data
+***London LSOA boundaries data (2011)***
+This project was carried out based on the Lower-layer Super Output Areas (LSOAs) among London's districts to determine the impact of Airbnb on London's rental market/tourism economy. LSOAs are one of the statistical hierarchies in the UK, comprised of approximately 2,000 residents or 800 households (ONS, 2021). This data was published in 2011 and contains basic information about households. To use only the necessary data, data cleaning has been done including the transformation of the data types. 
+
+***English LSOA boundaries data (2011)***
+
+***Airbnb data (2016, 2019, 2022)***
+***Housing price (2016, 2019, 2022)***
+***OpenStreetMap data***
+
+###Analysis methods 
+
+## 
 
 ## Conclusion
 
